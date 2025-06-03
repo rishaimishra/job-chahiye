@@ -1,13 +1,14 @@
 
+import { Button } from "@/components/ui/button";
 
 function App() {
 
   return (
     <>
-      <div>
-      Welcome to the React App!
+      <div className="flex min-h-svh flex-col items-center justify-center">
+        <Button variant="primary">Destructive</Button>
       </div>
-    
+
     </>
   )
 }
